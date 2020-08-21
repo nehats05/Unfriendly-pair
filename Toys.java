@@ -36,13 +36,13 @@ public class Toys {
             {
                 for (int i = 0; i < sub.size() ; i++) {
                     if(compareElements(sub.get(i),sub.get(i+1)))        //compare pairs
-                        flag=true;
+                        System.out.println("YES");
                     else
-                        flag=false;
+                        System.out.println("NO");
                 }
-                if (flag)
+                /*if (flag)
                     System.out.println("YES");
-                else System.out.println("NO");
+                else System.out.println("NO");*/
             }
             else
                 System.out.println("NO");
